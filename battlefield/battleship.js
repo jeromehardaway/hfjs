@@ -25,3 +25,5 @@ while (isSunk == false) {
     }
   }
 }
+var stats = "You took " + guesses + " guesses to sink the battleship, " + "which means your shooting accureacy was " + (3/guesses);
+alert(stats);
